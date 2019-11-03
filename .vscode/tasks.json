@@ -12,6 +12,16 @@
             "problemMatcher": "$tsc"
         },
         {
+            "label": "restore",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "restore",
+                "${workspaceFolder}/aspnetapp.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
             "label": "publish",
             "command": "dotnet",
             "type": "process",

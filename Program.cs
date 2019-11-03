@@ -17,15 +17,7 @@ namespace aspnetapp
     {
         public static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseUrls("http://0.0.0.0:9000")
-                .Configure(app => app.Run(async context => {
-                    await context.Response.WriteAsync("Hello remote world from ASP.NET Core!");
-                }))
-                .Build();
-
-            host.Run();
+            Console.WriteLine("hello world");
         }
 
     }
