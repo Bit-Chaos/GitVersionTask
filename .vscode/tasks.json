@@ -9,7 +9,8 @@
                 "build",
                 "${workspaceFolder}/aspnetapp.csproj"
             ],
-            "problemMatcher": "$tsc"
+            "problemMatcher": "$tsc",
+            "group": "build"
         },
         {
             "label": "restore",
@@ -19,7 +20,8 @@
                 "restore",
                 "${workspaceFolder}/aspnetapp.csproj"
             ],
-            "problemMatcher": "$tsc"
+            "problemMatcher": "$tsc",
+            "group": "build"
         },
         {
             "label": "publish",
@@ -29,7 +31,8 @@
                 "publish",
                 "${workspaceFolder}/aspnetapp.csproj"
             ],
-            "problemMatcher": "$tsc"
+            "problemMatcher": "$tsc",
+            "group": "build"
         },
         {
             "label": "watch",
